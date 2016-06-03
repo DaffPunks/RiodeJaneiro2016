@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="DefaultTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#FFC107</item>
+        <item name="colorPrimaryDark">#FFB300</item>
+        <item name="colorAccent">@color/accentColor</item>
+        <item name="mainColorBackground">#F5F5F5</item>
+        <item name="android:textColorPrimaryInverse">@color/black_text</item>
+        <item name="colorItemListBackgroundSelected">@color/md_indigo_200</item>
+        <item name="colorBackgroundList">@color/materialGray</item>
+        <item name="colorItemListText">@color/black_text</item>
+        <item name="colorItemListBackground">@color/white_text</item>
+        <item name="colorTimerDetailText">@color/white_secondary_icon</item>
+
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:actionModeBackground">?colorPrimary</item>
+        <item name="actionModeBackground">?colorPrimary</item>
+
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+
+        <item name="android:statusBarColor">@color/md_indigo_700</item>
+
+
+    </style>
+
+
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <style name="ToolBarStyle">
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.ActionBar</item>
+    </style>
+
+    <style name="ToolBarStyle.NoElevation">
+        <item name="android:elevation">0dp</item>
+    </style>
+
+    <style name="Widget.Tarefa.Header.Spinner" parent="Widget.AppCompat.Light.Spinner.DropDown.ActionBar">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:dropDownSelector">?android:selectableItemBackground</item>
+        <item name="android:divider">@null</item>
+        <item name="overlapAnchor">true</item>
+        <item name="android:overlapAnchor">true</item>
+    </style>
+
+</resources>
